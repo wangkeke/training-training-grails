@@ -1,5 +1,8 @@
 package training.grails
 
+/**
+ * 支持的普通的属性集合
+ */
 class PersonCollection {
     /**
      * As well as associations between different domain classes, GORM also supports mapping of basic collection types. For example, the following class creates a nicknames association that is a Set of String instances:
