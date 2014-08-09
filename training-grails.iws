@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a1aaa82-82c6-426b-a9c6-d54bbd1876b2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/mylog.log" afterPath="$PROJECT_DIR$/logs/mylog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-grails.iws" afterPath="$PROJECT_DIR$/training-grails.iws" />
     </list>
     <ignored path="training-grails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -401,7 +400,7 @@
       <workItem from="1407369134453" duration="68000" />
       <workItem from="1407377485289" duration="7062000" />
       <workItem from="1407489706639" duration="31000" />
-      <workItem from="1407549704186" duration="628000" />
+      <workItem from="1407549704186" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="GORM">
       <created>1407381773575</created>
@@ -415,7 +414,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7789000" />
+    <option name="totallyTimeSpent" value="8397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

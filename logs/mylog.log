@@ -819,3 +819,131 @@ java.net.SocketTimeoutException: Read timed out
 2014-08-09 10:12:55,276 [http-bio-8080-exec-7] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@442f7710:Socket[addr=/0:0:0:0:0:0:0:1,port=51856,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
 2014-08-09 10:13:31,746 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550411746 sessioncount 0
 2014-08-09 10:13:31,746 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:13:55,118 [http-bio-8080-exec-2] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:13:55,119 [http-bio-8080-exec-2] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@ac9c2e7:Socket[addr=/0:0:0:0:0:0:0:1,port=51871,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:13:55,120 [http-bio-8080-exec-2] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-2] latch=6
+2014-08-09 10:13:55,119 [http-bio-8080-exec-10] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:13:55,121 [http-bio-8080-exec-10] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@441ad139:Socket[addr=/0:0:0:0:0:0:0:1,port=51870,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:13:55,121 [http-bio-8080-exec-10] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-10] latch=5
+2014-08-09 10:13:55,137 [http-bio-8080-exec-9] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:13:55,138 [http-bio-8080-exec-9] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@2f413702:Socket[addr=/0:0:0:0:0:0:0:1,port=51869,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:13:55,138 [http-bio-8080-exec-9] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-9] latch=4
+2014-08-09 10:13:55,144 [http-bio-8080-exec-8] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:13:55,145 [http-bio-8080-exec-8] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@7b60b510:Socket[addr=/0:0:0:0:0:0:0:1,port=51868,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:13:55,145 [http-bio-8080-exec-8] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-8] latch=3
+2014-08-09 10:13:55,146 [http-bio-8080-exec-5] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:13:55,147 [http-bio-8080-exec-5] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@a0f6cb8:Socket[addr=/0:0:0:0:0:0:0:1,port=51857,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:13:55,148 [http-bio-8080-exec-5] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-5] latch=2
+2014-08-09 10:13:55,276 [http-bio-8080-exec-7] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:13:55,277 [http-bio-8080-exec-7] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@442f7710:Socket[addr=/0:0:0:0:0:0:0:1,port=51856,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:13:55,277 [http-bio-8080-exec-7] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-7] latch=1
+2014-08-09 10:14:31,750 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550471750 sessioncount 0
+2014-08-09 10:14:31,750 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:15:31,760 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550531760 sessioncount 0
+2014-08-09 10:15:31,760 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:16:31,764 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550591764 sessioncount 0
+2014-08-09 10:16:31,764 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:17:31,768 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550651768 sessioncount 0
+2014-08-09 10:17:31,768 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:18:31,772 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550711772 sessioncount 0
+2014-08-09 10:18:31,772 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:19:31,776 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550771776 sessioncount 0
+2014-08-09 10:19:31,776 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:20:31,780 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550831780 sessioncount 0
+2014-08-09 10:20:31,780 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:21:31,784 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550891784 sessioncount 0
+2014-08-09 10:21:31,784 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:22:31,789 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550951789 sessioncount 0
+2014-08-09 10:22:31,789 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:23:31,793 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407551011793 sessioncount 0
+2014-08-09 10:23:31,793 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:24:31,797 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407551071797 sessioncount 0
+2014-08-09 10:24:31,797 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:25:31,802 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407551131802 sessioncount 0
+2014-08-09 10:25:31,802 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:26:31,805 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407551191805 sessioncount 0
+2014-08-09 10:26:31,805 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:27:31,810 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407551251810 sessioncount 0
+2014-08-09 10:27:31,810 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:28:31,814 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407551311814 sessioncount 0
+2014-08-09 10:28:31,814 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-09 10:29:31,819 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407551371819 sessioncount 0
+2014-08-09 10:29:31,819 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
