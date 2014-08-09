@@ -1,0 +1,821 @@
+2014-08-09 10:10:59,827 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2014-08-09 10:10:59,852 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2014-08-09 10:11:02,262 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2014-08-09 10:11:02,266 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2014-08-09 10:11:09,501 [localhost-startStop-1] DEBUG context.GrailsContextLoaderListener  - [GrailsContextLoader] Loading context. Creating parent application context
+2014-08-09 10:11:09,504 [localhost-startStop-1] INFO  [localhost].[/training-grails]  - Initializing Spring root WebApplicationContext
+2014-08-09 10:11:10,703 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\grails-app]
+2014-08-09 10:11:10,704 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,704 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\assets] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,704 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\assets\images] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,705 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\assets\images\skin] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,707 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\assets\javascripts] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,708 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\assets\stylesheets] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,708 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,709 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\conf\hibernate] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,710 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\conf\spring] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,710 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\controllers] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,711 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\domain] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,711 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\domain\training] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,712 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\domain\training\grails] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,713 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\i18n] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,715 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\migrations] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,716 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\services] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,716 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\taglib] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,717 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\utils] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,717 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\views] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,718 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\grails-app\views\layouts] for files matching pattern [E:/training/training-grails/training-training-grails/grails-app/**/*.groovy]
+2014-08-09 10:11:10,719 [localhost-startStop-1] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails/grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\grails-app\conf\BootStrap.groovy, E:\training\training-grails\training-training-grails\grails-app\conf\BuildConfig.groovy, E:\training\training-grails\training-training-grails\grails-app\conf\Config.groovy, E:\training\training-grails\training-training-grails\grails-app\conf\DataSource.groovy, E:\training\training-grails\training-training-grails\grails-app\conf\spring\resources.groovy, E:\training\training-grails\training-training-grails\grails-app\conf\UrlMappings.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Author.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Book.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Face.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Nose.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Person.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Race.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Registration.groovy, E:\training\training-grails\training-training-grails\grails-app\domain\training\grails\Runner.groovy]
+2014-08-09 10:11:13,654 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.liveBeansView.mbeanDomain'
+2014-08-09 10:11:13,655 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.liveBeansView.mbeanDomain'
+2014-08-09 10:11:13,656 [localhost-startStop-1] DEBUG context.GrailsContextLoaderListener  - [GrailsContextLoader] Created parent application context
+2014-08-09 10:11:13,670 [localhost-startStop-1] DEBUG context.GrailsConfigUtils  - [GrailsContextLoader] Configuring Grails Application
+2014-08-09 10:11:13,702 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.active'
+2014-08-09 10:11:13,702 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.active'
+2014-08-09 10:11:13,703 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2014-08-09 10:11:13,703 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2014-08-09 10:11:13,704 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2014-08-09 10:11:13,704 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2014-08-09 10:11:16,329 [localhost-startStop-1] DEBUG spring.BeanBuilder  - Configuring controller asset.pipeline.AssetsController
+2014-08-09 10:11:16,343 [localhost-startStop-1] DEBUG spring.BeanBuilder  - Configuring controller grails.plugin.databasemigration.DbdocController
+2014-08-09 10:11:17,467 [localhost-startStop-1] DEBUG hibernate4.HibernatePluginSupport  - processing DataSource DEFAULT
+2014-08-09 10:11:17,603 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.active'
+2014-08-09 10:11:17,603 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.active'
+2014-08-09 10:11:17,604 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2014-08-09 10:11:17,604 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2014-08-09 10:11:17,604 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2014-08-09 10:11:17,605 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2014-08-09 10:11:17,622 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'create-drop' for datasource DEFAULT
+2014-08-09 10:11:18,532 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2014-08-09 10:11:18,535 [localhost-startStop-1] DEBUG cache.CacheBeanPostProcessor  - updated Root bean: class [grails.plugin.cache.GrailsAnnotationCacheOperationSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null
+2014-08-09 10:11:18,543 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2014-08-09 10:11:18,670 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,122 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,123 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,123 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,124 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,124 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,125 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,125 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,126 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,126 [localhost-startStop-1] DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2014-08-09 10:11:19,269 [localhost-startStop-1] DEBUG jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2014-08-09 10:11:21,118 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/Percy/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2014-08-09 10:11:21,118 [localhost-startStop-1] DEBUG config.ConfigurationFactory  - Configuring ehcache from URL: jar:file:/C:/Users/Percy/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2014-08-09 10:11:21,119 [localhost-startStop-1] DEBUG config.ConfigurationFactory  - Configuring ehcache from InputStream
+2014-08-09 10:11:21,195 [localhost-startStop-1] DEBUG config.BeanHandler  - Ignoring ehcache attribute xmlns:xsi
+2014-08-09 10:11:21,195 [localhost-startStop-1] DEBUG config.BeanHandler  - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2014-08-09 10:11:21,196 [localhost-startStop-1] DEBUG config.DiskStoreConfiguration  - Disk Store Path: C:\Users\Percy\AppData\Local\Temp\
+2014-08-09 10:11:21,265 [localhost-startStop-1] DEBUG util.PropertyUtil  - propertiesString is null.
+2014-08-09 10:11:21,272 [localhost-startStop-1] DEBUG config.ConfigurationHelper  - No CacheManagerEventListenerFactory class specified. Skipping...
+2014-08-09 10:11:21,325 [localhost-startStop-1] DEBUG ehcache.Cache  - No BootstrapCacheLoaderFactory class specified. Skipping...
+2014-08-09 10:11:21,325 [localhost-startStop-1] DEBUG ehcache.Cache  - CacheWriter factory not configured. Skipping...
+2014-08-09 10:11:21,329 [localhost-startStop-1] DEBUG config.ConfigurationHelper  - No CacheExceptionHandlerFactory class specified. Skipping...
+2014-08-09 10:11:23,348 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table author_book drop constraint FK_bfff0qy5yokmeel0q0e10msv7 if exists
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Table "AUTHOR_BOOK" not found; SQL statement:
+alter table author_book drop constraint FK_bfff0qy5yokmeel0q0e10msv7 if exists [42102-176]
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table author_book drop constraint FK_tn8vjengqii69lshji5lcbvqq if exists
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Table "AUTHOR_BOOK" not found; SQL statement:
+alter table author_book drop constraint FK_tn8vjengqii69lshji5lcbvqq if exists [42102-176]
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table face drop constraint FK_22kbo6e72yu3hftdkvig9k3rm if exists
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Table "FACE" not found; SQL statement:
+alter table face drop constraint FK_22kbo6e72yu3hftdkvig9k3rm if exists [42102-176]
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table person drop constraint FK_9qjmj4v1n2nf9bu0urtehtr6v if exists
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Table "PERSON" not found; SQL statement:
+alter table person drop constraint FK_9qjmj4v1n2nf9bu0urtehtr6v if exists [42102-176]
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table person drop constraint FK_f5hhe53ncti5mbcgvr8eq73th if exists
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Table "PERSON" not found; SQL statement:
+alter table person drop constraint FK_f5hhe53ncti5mbcgvr8eq73th if exists [42102-176]
+2014-08-09 10:11:23,349 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table registration drop constraint FK_1oi936f0xkehmis7jnvhq1ajx if exists
+2014-08-09 10:11:23,350 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Table "REGISTRATION" not found; SQL statement:
+alter table registration drop constraint FK_1oi936f0xkehmis7jnvhq1ajx if exists [42102-176]
+2014-08-09 10:11:23,350 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table registration drop constraint FK_r2y9f5lmnxye4w9c537mk3qf3 if exists
+2014-08-09 10:11:23,350 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Table "REGISTRATION" not found; SQL statement:
+alter table registration drop constraint FK_r2y9f5lmnxye4w9c537mk3qf3 if exists [42102-176]
+2014-08-09 10:11:23,812 [localhost-startStop-1] DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin webxml-1.4.1
+java.io.FileNotFoundException: class path resource [E:/training/training-grails/training-training-grails/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:23,815 [localhost-startStop-1] DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin database-migration-1.4.0
+java.io.FileNotFoundException: class path resource [E:/training/training-grails/training-training-grails/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:23,818 [localhost-startStop-1] DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin jquery-1.11.1
+java.io.FileNotFoundException: class path resource [E:/training/training-grails/training-training-grails/target/work/resources/plugins/jquery-1.11.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:23,821 [localhost-startStop-1] DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin asset-pipeline-1.8.7
+java.io.FileNotFoundException: class path resource [E:/training/training-grails/training-training-grails/target/work/resources/plugins/asset-pipeline-1.8.7/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:23,823 [localhost-startStop-1] DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin scaffolding-2.1.0
+java.io.FileNotFoundException: class path resource [E:/training/training-grails/training-training-grails/target/work/resources/plugins/scaffolding-2.1.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:23,826 [localhost-startStop-1] DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin hibernate4-4.3.5.3
+java.io.FileNotFoundException: class path resource [E:/training/training-grails/training-training-grails/target/work/resources/plugins/hibernate4-4.3.5.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:23,828 [localhost-startStop-1] DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin cache-1.1.6
+java.io.FileNotFoundException: class path resource [E:/training/training-grails/training-training-grails/target/work/resources/plugins/cache-1.1.6/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:25,176 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'grails.gsp.tldScanPattern:'
+2014-08-09 10:11:25,176 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/grails.gsp.tldScanPattern'
+2014-08-09 10:11:25,176 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'grails.gsp.tldScanPattern'
+2014-08-09 10:11:25,179 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.gsp.tldScanPattern:'
+2014-08-09 10:11:25,179 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.gsp.tldScanPattern'
+2014-08-09 10:11:25,179 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.gsp.tldScanPattern'
+2014-08-09 10:11:25,253 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@21ab394e: startup date [Sat Aug 09 10:11:17 CST 2014]; parent: Root WebApplicationContext]
+2014-08-09 10:11:27,508 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.liveBeansView.mbeanDomain'
+2014-08-09 10:11:27,508 [localhost-startStop-1] DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.liveBeansView.mbeanDomain'
+2014-08-09 10:11:28,143 [localhost-startStop-1] DEBUG configuration.ConvertersConfigurationInitializer  - Initializing Converters Default Configurations...
+2014-08-09 10:11:28,143 [localhost-startStop-1] DEBUG configuration.ConvertersConfigurationInitializer  - Initializing default JSON Converters Configuration...
+2014-08-09 10:11:28,154 [localhost-startStop-1] DEBUG configuration.ConvertersConfigurationInitializer  - Using default JSON Date Marshaller
+2014-08-09 10:11:28,219 [localhost-startStop-1] DEBUG configuration.ConvertersConfigurationInitializer  - Initializing default XML Converters Configuration...
+2014-08-09 10:11:30,736 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2014-08-09 10:11:30,831 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2014-08-09 10:11:30,839 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2014-08-09 10:11:30,873 [localhost-startStop-1] DEBUG cache.ConfigLoader  - Including configs from Default with order 1000
+2014-08-09 10:11:30,875 [localhost-startStop-1] DEBUG cache.ConfigLoader  - Not including configs from Config.groovy
+2014-08-09 10:11:30,957 [localhost-startStop-1] DEBUG cache.CacheGrailsPlugin  - Reloaded grailsCacheConfigLoader
+2014-08-09 10:11:30,962 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2014-08-09 10:11:31,287 [localhost-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/training-grails]] to [INITIALIZING]
+2014-08-09 10:11:31,287 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:type=Manager,context=/training-grails,host=localhost
+2014-08-09 10:11:31,288 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.session.StandardManager[/training-grails] Tomcat:type=Manager,context=/training-grails,host=localhost
+2014-08-09 10:11:31,288 [localhost-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/training-grails]] to [INITIALIZED]
+2014-08-09 10:11:31,288 [localhost-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/training-grails]] to [STARTING_PREP]
+2014-08-09 10:11:31,294 [localhost-startStop-1] DEBUG session.ManagerBase  - Force random number initialization starting
+2014-08-09 10:11:31,294 [localhost-startStop-1] DEBUG session.ManagerBase  - Force random number initialization completed
+2014-08-09 10:11:31,294 [localhost-startStop-1] DEBUG session.StandardManager  - Start: Loading persisted sessions
+2014-08-09 10:11:31,295 [localhost-startStop-1] DEBUG session.StandardManager  - Loading persisted sessions from SESSIONS.ser
+2014-08-09 10:11:31,295 [localhost-startStop-1] DEBUG session.StandardManager  - No persisted data file found
+2014-08-09 10:11:31,295 [localhost-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/training-grails]] to [STARTING]
+2014-08-09 10:11:31,295 [localhost-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/training-grails]] to [STARTED]
+2014-08-09 10:11:31,295 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  - Starting filters
+2014-08-09 10:11:31,295 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  -  Starting filter 'grailsWebRequest'
+2014-08-09 10:11:31,319 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=grailsWebRequest,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,319 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=grailsWebRequest, filterClass=org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter] Tomcat:j2eeType=Filter,name=grailsWebRequest,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,319 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  -  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2014-08-09 10:11:31,319 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=Tomcat WebSocket (JSR356) Filter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,320 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=Tomcat WebSocket (JSR356) Filter, filterClass=org.apache.tomcat.websocket.server.WsFilter] Tomcat:j2eeType=Filter,name=Tomcat WebSocket (JSR356) Filter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,320 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  -  Starting filter 'urlMapping'
+2014-08-09 10:11:31,336 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=urlMapping,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,336 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=urlMapping, filterClass=org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter] Tomcat:j2eeType=Filter,name=urlMapping,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,336 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  -  Starting filter 'hiddenHttpMethod'
+2014-08-09 10:11:31,339 [localhost-startStop-1] DEBUG filters.HiddenHttpMethodFilter  - Initializing filter 'hiddenHttpMethod'
+2014-08-09 10:11:31,339 [localhost-startStop-1] DEBUG filters.HiddenHttpMethodFilter  - Filter 'hiddenHttpMethod' configured successfully
+2014-08-09 10:11:31,339 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=hiddenHttpMethod,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,339 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=hiddenHttpMethod, filterClass=org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter] Tomcat:j2eeType=Filter,name=hiddenHttpMethod,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,339 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  -  Starting filter 'grailsCacheFilter'
+2014-08-09 10:11:31,347 [localhost-startStop-1] DEBUG simple.MemoryPageFragmentCachingFilter  - Initializing filter 'grailsCacheFilter'
+2014-08-09 10:11:31,352 [localhost-startStop-1] DEBUG simple.MemoryPageFragmentCachingFilter  - Filter 'grailsCacheFilter' configured successfully
+2014-08-09 10:11:31,353 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=grailsCacheFilter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,353 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=grailsCacheFilter, filterClass=org.springframework.web.filter.DelegatingFilterProxy] Tomcat:j2eeType=Filter,name=grailsCacheFilter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,353 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  -  Starting filter 'AssetPipelineFilter'
+2014-08-09 10:11:31,378 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=AssetPipelineFilter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,378 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=AssetPipelineFilter, filterClass=asset.pipeline.AssetPipelineFilter] Tomcat:j2eeType=Filter,name=AssetPipelineFilter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,378 [localhost-startStop-1] DEBUG [localhost].[/training-grails]  -  Starting filter 'charEncodingFilter'
+2014-08-09 10:11:31,380 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=charEncodingFilter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,381 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=charEncodingFilter, filterClass=org.springframework.web.filter.DelegatingFilterProxy] Tomcat:j2eeType=Filter,name=charEncodingFilter,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,444 [localhost-startStop-1] INFO  [localhost].[/training-grails]  - Initializing Spring FrameworkServlet 'grails'
+2014-08-09 10:11:31,672 [localhost-startStop-1] DEBUG compiler.JspRuntimeContext  - Parent class loader is: org.grails.plugins.tomcat.ParentDelegatingClassLoader@1b3c0cef
+2014-08-09 10:11:31,675 [localhost-startStop-1] DEBUG compiler.JspRuntimeContext  - Compilation classpath initialized: E:\training\training-grails\training-training-grails\target\work\tomcat\work\Tomcat\localhost\training-grails;null
+2014-08-09 10:11:31,677 [localhost-startStop-1] DEBUG servlet.JspServlet  - Scratch dir for the JSP engine is: E:\training\training-grails\training-training-grails\target\work\tomcat\work\Tomcat\localhost\training-grails
+2014-08-09 10:11:31,677 [localhost-startStop-1] DEBUG servlet.JspServlet  - IMPORTANT: Do not modify the generated servlets
+2014-08-09 10:11:31,678 [localhost-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:type=JspMonitor,name=jsp,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,678 [localhost-startStop-1] DEBUG modeler.Registry  - Looking for descriptor 
+2014-08-09 10:11:31,678 [localhost-startStop-1] DEBUG modeler.Registry  - Found jar:file:/C:/Users/Percy/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.53/tomcat-embed-jasper-7.0.53.jar!/org/apache/jasper/servlet/mbeans-descriptors.xml
+2014-08-09 10:11:31,680 [localhost-startStop-1] DEBUG Digester.sax  - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@262eacb)
+2014-08-09 10:11:31,680 [localhost-startStop-1] DEBUG Digester.sax  - startDocument()
+2014-08-09 10:11:31,680 [localhost-startStop-1] DEBUG Digester.sax  - startElement(,,mbeans-descriptors)
+2014-08-09 10:11:31,680 [localhost-startStop-1] DEBUG digester.Digester  -   Pushing body text ''
+2014-08-09 10:11:31,680 [localhost-startStop-1] DEBUG digester.Digester  -   New match='mbeans-descriptors'
+2014-08-09 10:11:31,680 [localhost-startStop-1] DEBUG digester.Digester  -   No rules found matching 'mbeans-descriptors'.
+2014-08-09 10:11:31,680 [localhost-startStop-1] DEBUG Digester.sax  - characters(
+
+  )
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG Digester.sax  - startElement(,,mbean)
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  -   Pushing body text '
+
+  '
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean'
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.ManagedBean, attributeName=null]
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean}New org.apache.tomcat.util.modeler.ManagedBean
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Set org.apache.tomcat.util.modeler.ManagedBean properties
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'name' to 'JspMonitor'
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean name=JspMonitor)
+2014-08-09 10:11:31,681 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'description' to 'JSP Monitoring'
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean description=JSP Monitoring)
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'domain' to 'Catalina'
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean domain=Catalina)
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'group' to 'Monitoring'
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean group=Monitoring)
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'type' to 'org.apache.jasper.servlet.JspServlet'
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean type=org.apache.jasper.servlet.JspServlet)
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=add, paramType=java.lang.Object]
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG Digester.sax  - characters(
+
+    )
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG Digester.sax  - startElement(,,attribute)
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  -   Pushing body text '
+
+    '
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,682 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,683 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2014-08-09 10:11:31,683 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2014-08-09 10:11:31,683 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspCount'
+2014-08-09 10:11:31,683 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspCount)
+2014-08-09 10:11:31,683 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The number of JSPs that have been loaded into a webapp'
+2014-08-09 10:11:31,683 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The number of JSPs that have been loaded into a webapp)
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'writeable' to 'false'
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo writeable=false)
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG Digester.sax  - endElement(,,attribute)
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  -   bodyText=''
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2014-08-09 10:11:31,690 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  -   Popping body text '
+
+    '
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@2c24b6a6)
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG Digester.sax  - characters(
+
+    )
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG Digester.sax  - startElement(,,attribute)
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  -   Pushing body text '
+
+    
+
+    '
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,691 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspReloadCount'
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspReloadCount)
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The number of JSPs that have been reloaded'
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The number of JSPs that have been reloaded)
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG Digester.sax  - endElement(,,attribute)
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   bodyText=''
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   Popping body text '
+
+    
+
+    '
+2014-08-09 10:11:31,692 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,696 [localhost-startStop-1] DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@1e5362ee)
+2014-08-09 10:11:31,696 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG Digester.sax  - characters(
+
+    )
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG Digester.sax  - startElement(,,attribute)
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  -   Pushing body text '
+
+    
+
+    
+
+    '
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspUnloadCount'
+2014-08-09 10:11:31,697 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspUnloadCount)
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The number of JSPs that have been unloaded'
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The number of JSPs that have been unloaded)
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG Digester.sax  - endElement(,,attribute)
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   bodyText=''
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   Popping body text '
+
+    
+
+    
+
+    '
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@748406cf)
+2014-08-09 10:11:31,698 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG Digester.sax  - characters(
+
+    )
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG Digester.sax  - startElement(,,attribute)
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  -   Pushing body text '
+
+    
+
+    
+
+    
+
+    '
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2014-08-09 10:11:31,699 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2014-08-09 10:11:31,701 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspQueueLength'
+2014-08-09 10:11:31,701 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspQueueLength)
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The length of the JSP queue (if enabled via maxLoadedJsps)'
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The length of the JSP queue (if enabled via maxLoadedJsps))
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG Digester.sax  - endElement(,,attribute)
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  -   bodyText=''
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,702 [localhost-startStop-1] DEBUG digester.Digester  -   Popping body text '
+
+    
+
+    
+
+    
+
+    '
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@7db3bcc)
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG Digester.sax  - characters(
+
+  )
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG Digester.sax  - endElement(,,mbean)
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   match='mbeans-descriptors/mbean'
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   bodyText='
+
+    
+
+    
+
+    
+
+    
+
+  '
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.ManagedBean, attributeName=null]
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=add, paramType=java.lang.Object]
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Popping body text '
+
+  '
+2014-08-09 10:11:31,703 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=add, paramType=java.lang.Object]
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean} Call java.util.ArrayList.add(ManagedBean[name=JspMonitor, className=org.apache.tomcat.util.modeler.BaseModelMBean, description=JSP Monitoring, group=Monitoring, type=org.apache.jasper.servlet.JspServlet])
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 java.util.ArrayList org.apache.tomcat.util.modeler.ManagedBean java.lang.Object
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.ManagedBean, attributeName=null]
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean} Pop org.apache.tomcat.util.modeler.ManagedBean
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG Digester.sax  - characters(
+
+)
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG Digester.sax  - endElement(,,mbeans-descriptors)
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  -   match='mbeans-descriptors'
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  -   bodyText='
+
+  
+
+'
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  -   No rules found matching 'mbeans-descriptors'.
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG digester.Digester  -   Popping body text ''
+2014-08-09 10:11:31,704 [localhost-startStop-1] DEBUG Digester.sax  - endDocument()
+2014-08-09 10:11:31,705 [localhost-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister org.apache.jasper.servlet.JspServlet@4a32d21b Tomcat:type=JspMonitor,name=jsp,WebModule=//localhost/training-grails,J2EEApplication=none,J2EEServer=none
+2014-08-09 10:11:31,705 [localhost-startStop-1] DEBUG core.StandardContext  - Starting completed
+2014-08-09 10:11:31,711 [localhost-startStop-1] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/training-grails]] to [STARTING]
+2014-08-09 10:11:31,715 [localhost-startStop-1] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/training-grails]] to [STARTED]
+2014-08-09 10:11:31,716 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2014-08-09 10:11:31,717 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2014-08-09 10:11:31,717 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2014-08-09 10:11:31,718 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [INITIALIZING]
+2014-08-09 10:11:31,718 [Tomcat-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:type=Valve,host=localhost,name=ErrorReportValve
+2014-08-09 10:11:31,718 [Tomcat-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.valves.ErrorReportValve[localhost] Tomcat:type=Valve,host=localhost,name=ErrorReportValve
+2014-08-09 10:11:31,719 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [INITIALIZED]
+2014-08-09 10:11:31,719 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STARTING_PREP]
+2014-08-09 10:11:31,719 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STARTING]
+2014-08-09 10:11:31,719 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STARTED]
+2014-08-09 10:11:31,719 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [INITIALIZING]
+2014-08-09 10:11:31,720 [Tomcat-startStop-1] DEBUG modeler.Registry  - Managed= Tomcat:type=Valve,host=localhost,name=StandardHostValve
+2014-08-09 10:11:31,720 [Tomcat-startStop-1] DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.core.StandardHostValve[localhost] Tomcat:type=Valve,host=localhost,name=StandardHostValve
+2014-08-09 10:11:31,720 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [INITIALIZED]
+2014-08-09 10:11:31,720 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STARTING_PREP]
+2014-08-09 10:11:31,720 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STARTING]
+2014-08-09 10:11:31,721 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STARTED]
+2014-08-09 10:11:31,721 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2014-08-09 10:11:31,721 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2014-08-09 10:11:31,721 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING]
+2014-08-09 10:11:31,721 [Tomcat-startStop-1] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTED]
+2014-08-09 10:11:31,723 [main] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [INITIALIZING]
+2014-08-09 10:11:31,723 [main] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [INITIALIZED]
+2014-08-09 10:11:31,723 [main] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2014-08-09 10:11:31,724 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [INITIALIZING]
+2014-08-09 10:11:31,724 [main] DEBUG modeler.Registry  - Managed= Tomcat:type=Valve,name=StandardEngineValve
+2014-08-09 10:11:31,724 [main] DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.core.StandardEngineValve[Tomcat] Tomcat:type=Valve,name=StandardEngineValve
+2014-08-09 10:11:31,724 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [INITIALIZED]
+2014-08-09 10:11:31,724 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STARTING_PREP]
+2014-08-09 10:11:31,725 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STARTING]
+2014-08-09 10:11:31,725 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STARTED]
+2014-08-09 10:11:31,725 [main] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STARTING]
+2014-08-09 10:11:31,725 [main] DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STARTED]
+2014-08-09 10:11:31,725 [main] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [STARTING]
+2014-08-09 10:11:31,734 [main] DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [STARTED]
+2014-08-09 10:11:31,737 [main] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STARTING_PREP]
+2014-08-09 10:11:31,737 [main] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STARTING]
+2014-08-09 10:11:31,737 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2014-08-09 10:11:31,750 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@11f8ece7] to [STARTING_PREP]
+2014-08-09 10:11:31,750 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@11f8ece7] to [STARTING]
+2014-08-09 10:11:31,753 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=0
+2014-08-09 10:11:31,764 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=1
+2014-08-09 10:11:31,765 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=2
+2014-08-09 10:11:31,788 [main] DEBUG connector.MapperListener  - Register Wrapper [grails-errorhandler] in Context [/training-grails] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,788 [main] DEBUG connector.MapperListener  - Register Wrapper [grails] in Context [/training-grails] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,788 [main] DEBUG connector.MapperListener  - Register Wrapper [jsp] in Context [/training-grails] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,789 [main] DEBUG connector.MapperListener  - Register Wrapper [default] in Context [/training-grails] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,789 [main] DEBUG connector.MapperListener  - Register Wrapper [H2Console] in Context [/training-grails] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,789 [main] DEBUG connector.MapperListener  - Register Wrapper [gsp] in Context [/training-grails] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,789 [main] DEBUG connector.MapperListener  - Register Context [/training-grails] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,789 [main] DEBUG connector.MapperListener  - Register host [localhost] at domain [null] for connector [Connector[HTTP/1.1-8080]]
+2014-08-09 10:11:31,789 [main] DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@11f8ece7] to [STARTED]
+2014-08-09 10:11:31,789 [main] DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STARTED]
+2014-08-09 10:11:31,789 [main] DEBUG util.LifecycleBase  - Setting state for [StandardService[Tomcat]] to [STARTED]
+2014-08-09 10:11:31,789 [main] DEBUG util.LifecycleBase  - Setting state for [StandardServer[-1]] to [STARTED]
+2014-08-09 10:11:31,938 [http-bio-8080-exec-1] DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest1
+2014-08-09 10:11:31,938 [http-bio-8080-exec-1] DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest1
+2014-08-09 10:11:31,938 [http-bio-8080-exec-1] DEBUG modeler.Registry  - Looking for descriptor 
+2014-08-09 10:11:31,939 [http-bio-8080-exec-1] DEBUG modeler.Registry  - Introspecting 
+2014-08-09 10:11:31,939 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute virtualHost public java.lang.String org.apache.coyote.RequestInfo.getVirtualHost() null
+2014-08-09 10:11:31,939 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute bytesSent public long org.apache.coyote.RequestInfo.getBytesSent() public void org.apache.coyote.RequestInfo.setBytesSent(long)
+2014-08-09 10:11:31,939 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute method public java.lang.String org.apache.coyote.RequestInfo.getMethod() null
+2014-08-09 10:11:31,939 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute remoteAddr public java.lang.String org.apache.coyote.RequestInfo.getRemoteAddr() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestBytesSent public long org.apache.coyote.RequestInfo.getRequestBytesSent() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute rpName public javax.management.ObjectName org.apache.coyote.RequestInfo.getRpName() public void org.apache.coyote.RequestInfo.setRpName(javax.management.ObjectName)
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute contentLength public int org.apache.coyote.RequestInfo.getContentLength() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute workerThreadName public java.lang.String org.apache.coyote.RequestInfo.getWorkerThreadName() public void org.apache.coyote.RequestInfo.setWorkerThreadName(java.lang.String)
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute bytesReceived public long org.apache.coyote.RequestInfo.getBytesReceived() public void org.apache.coyote.RequestInfo.setBytesReceived(long)
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestProcessingTime public long org.apache.coyote.RequestInfo.getRequestProcessingTime() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute remoteAddrForwarded public java.lang.String org.apache.coyote.RequestInfo.getRemoteAddrForwarded() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute globalProcessor public org.apache.coyote.RequestGroupInfo org.apache.coyote.RequestInfo.getGlobalProcessor() public void org.apache.coyote.RequestInfo.setGlobalProcessor(org.apache.coyote.RequestGroupInfo)
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute protocol public java.lang.String org.apache.coyote.RequestInfo.getProtocol() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute currentQueryString public java.lang.String org.apache.coyote.RequestInfo.getCurrentQueryString() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute maxRequestUri public java.lang.String org.apache.coyote.RequestInfo.getMaxRequestUri() public void org.apache.coyote.RequestInfo.setMaxRequestUri(java.lang.String)
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestBytesReceived public long org.apache.coyote.RequestInfo.getRequestBytesReceived() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute serverPort public int org.apache.coyote.RequestInfo.getServerPort() null
+2014-08-09 10:11:31,940 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute stage public int org.apache.coyote.RequestInfo.getStage() public void org.apache.coyote.RequestInfo.setStage(int)
+2014-08-09 10:11:31,941 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestCount public int org.apache.coyote.RequestInfo.getRequestCount() public void org.apache.coyote.RequestInfo.setRequestCount(int)
+2014-08-09 10:11:31,941 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute maxTime public long org.apache.coyote.RequestInfo.getMaxTime() public void org.apache.coyote.RequestInfo.setMaxTime(long)
+2014-08-09 10:11:31,941 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute processingTime public long org.apache.coyote.RequestInfo.getProcessingTime() public void org.apache.coyote.RequestInfo.setProcessingTime(long)
+2014-08-09 10:11:31,941 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute currentUri public java.lang.String org.apache.coyote.RequestInfo.getCurrentUri() null
+2014-08-09 10:11:31,942 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute lastRequestProcessingTime public long org.apache.coyote.RequestInfo.getLastRequestProcessingTime() public void org.apache.coyote.RequestInfo.setLastRequestProcessingTime(long)
+2014-08-09 10:11:31,942 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute errorCount public int org.apache.coyote.RequestInfo.getErrorCount() public void org.apache.coyote.RequestInfo.setErrorCount(int)
+2014-08-09 10:11:31,942 [http-bio-8080-exec-1] DEBUG modules.MbeansDescriptorsIntrospectionSource  - Setting name: org.apache.coyote.RequestInfo
+2014-08-09 10:11:31,942 [http-bio-8080-exec-1] DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@16cbaa9e Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest1
+2014-08-09 10:11:31,944 [http-bio-8080-exec-2] DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest2
+2014-08-09 10:11:31,944 [http-bio-8080-exec-2] DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest2
+2014-08-09 10:11:31,944 [http-bio-8080-exec-2] DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@43b7a6fa Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest2
+2014-08-09 10:11:32,207 [http-bio-8080-exec-2] DEBUG http.Parameters  - Set query string encoding to UTF-8
+2014-08-09 10:11:32,211 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\grails-app]
+2014-08-09 10:11:32,211 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/webxml-1.4.1/grails-app/*]
+2014-08-09 10:11:32,212 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1/grails-app/*] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\grails-app\conf]
+2014-08-09 10:11:32,208 [http-bio-8080-exec-2] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/is-tomcat-running]
+2014-08-09 10:11:32,219 [http-bio-8080-exec-2] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:11:32,219 [http-bio-8080-exec-2] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:11:32,236 [http-bio-8080-exec-2] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@4b0cda0b:Socket[addr=/127.0.0.1,port=51846,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:11:32,237 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\tomcat-7.0.53\grails-app]
+2014-08-09 10:11:32,237 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\tomcat-7.0.53\grails-app] because it does not exist
+2014-08-09 10:11:32,237 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\tomcat-7.0.53/grails-app/*] to resources []
+2014-08-09 10:11:32,239 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\grails-app]
+2014-08-09 10:11:32,239 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\grails-app] because it does not exist
+2014-08-09 10:11:32,239 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0/grails-app/*] to resources []
+2014-08-09 10:11:32,241 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\grails-app]
+2014-08-09 10:11:32,241 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/grails-app/*]
+2014-08-09 10:11:32,243 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1/grails-app/*] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\grails-app\assets, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\grails-app\conf, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\grails-app\services, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\grails-app\taglib]
+2014-08-09 10:11:32,246 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\grails-app]
+2014-08-09 10:11:32,246 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\grails-app] because it does not exist
+2014-08-09 10:11:32,246 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3/grails-app/*] to resources []
+2014-08-09 10:11:32,248 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\grails-app]
+2014-08-09 10:11:32,248 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/grails-app/*]
+2014-08-09 10:11:32,249 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0/grails-app/*] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\grails-app\conf, E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\grails-app\controllers, E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\grails-app\views]
+2014-08-09 10:11:32,252 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\grails-app]
+2014-08-09 10:11:32,281 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/grails-app/*]
+2014-08-09 10:11:32,283 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6/grails-app/*] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\grails-app\conf, E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\grails-app\services, E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\grails-app\taglib]
+2014-08-09 10:11:32,286 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\grails-app]
+2014-08-09 10:11:32,286 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/grails-app/*]
+2014-08-09 10:11:32,288 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7/grails-app/*] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\grails-app\conf, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\grails-app\controllers, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\grails-app\services, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\grails-app\taglib]
+2014-08-09 10:11:32,294 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\.\grails-app]
+2014-08-09 10:11:32,294 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\.\grails-app] because it does not exist
+2014-08-09 10:11:32,294 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\./grails-app/**/*.groovy] to resources []
+2014-08-09 10:11:32,299 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app]
+2014-08-09 10:11:32,300 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,300 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,301 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,301 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,301 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails\plugin] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,305 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails\plugin\cache] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,306 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,306 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,307 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails\plugin] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,307 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails\plugin\cache] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,308 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\conf\DefaultCacheConfig.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails\plugin\cache\GrailsCacheAdminService.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails\plugin\cache\CacheTagLib.groovy]
+2014-08-09 10:11:32,311 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app]
+2014-08-09 10:11:32,311 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,312 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,312 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app\conf\DefaultWebXmlConfig.groovy]
+2014-08-09 10:11:32,316 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app]
+2014-08-09 10:11:32,316 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,316 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,317 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,321 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers\asset] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,322 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers\asset\pipeline] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,323 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,323 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services\asset] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,323 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services\asset\pipeline] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,324 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,325 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,325 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset\pipeline] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,327 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\conf\AssetPipelineBootStrap.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\conf\AssetUrlMappings.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers\asset\pipeline\AssetsController.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services\asset\pipeline\AssetProcessorService.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset\pipeline\AssetMethodTagLib.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset\pipeline\AssetsTagLib.groovy]
+2014-08-09 10:11:32,341 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\.\grails-app]
+2014-08-09 10:11:32,341 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\.\grails-app] because it does not exist
+2014-08-09 10:11:32,342 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\./grails-app/**/*.groovy] to resources []
+2014-08-09 10:11:32,345 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app]
+2014-08-09 10:11:32,345 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,346 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,346 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,346 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,347 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,347 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,348 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\views] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,348 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\views\dbdoc] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,349 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\conf\DbdocUrlMappings.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration\DbdocController.groovy]
+2014-08-09 10:11:32,355 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app]
+2014-08-09 10:11:32,355 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,355 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\assets] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,356 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\assets\javascripts] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,356 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,357 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\services] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,358 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\taglib] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,358 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryConfig.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryPluginResources.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\services\JQueryService.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryResourceTagLib.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryTagLib.groovy]
+2014-08-09 10:11:32,360 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\.\grails-app]
+2014-08-09 10:11:32,360 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\.\grails-app] because it does not exist
+2014-08-09 10:11:32,360 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\./grails-app/**/*.groovy] to resources []
+2014-08-09 10:11:32,361 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app]
+2014-08-09 10:11:32,361 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,361 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,362 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,362 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,363 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails\plugin] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,363 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails\plugin\cache] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,364 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,365 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,365 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails\plugin] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,365 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails\plugin\cache] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/cache-1.1.6/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,366 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\conf\DefaultCacheConfig.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\services\grails\plugin\cache\GrailsCacheAdminService.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\.\grails-app\taglib\grails\plugin\cache\CacheTagLib.groovy]
+2014-08-09 10:11:32,367 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app]
+2014-08-09 10:11:32,367 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,368 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,368 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\.\grails-app\conf\DefaultWebXmlConfig.groovy]
+2014-08-09 10:11:32,369 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app]
+2014-08-09 10:11:32,369 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,370 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,371 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,371 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers\asset] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,371 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers\asset\pipeline] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,372 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,373 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services\asset] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,373 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services\asset\pipeline] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,374 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,374 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,375 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset\pipeline] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/asset-pipeline-1.8.7/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,376 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\conf\AssetPipelineBootStrap.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\conf\AssetUrlMappings.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\controllers\asset\pipeline\AssetsController.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\services\asset\pipeline\AssetProcessorService.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset\pipeline\AssetMethodTagLib.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\.\grails-app\taglib\asset\pipeline\AssetsTagLib.groovy]
+2014-08-09 10:11:32,377 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\.\grails-app]
+2014-08-09 10:11:32,377 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\.\grails-app] because it does not exist
+2014-08-09 10:11:32,377 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\./grails-app/**/*.groovy] to resources []
+2014-08-09 10:11:32,378 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app]
+2014-08-09 10:11:32,378 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,378 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,379 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,379 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,380 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,380 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,381 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\views] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,385 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\views\dbdoc] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,386 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\conf\DbdocUrlMappings.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration\DbdocController.groovy]
+2014-08-09 10:11:32,388 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app]
+2014-08-09 10:11:32,388 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,388 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\assets] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,389 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\assets\javascripts] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,389 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\conf] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,390 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\services] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,391 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\taglib] for files matching pattern [E:/training/training-grails/training-training-grails/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2014-08-09 10:11:32,391 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\./grails-app/**/*.groovy] to resources [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryConfig.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryPluginResources.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\services\JQueryService.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryResourceTagLib.groovy, E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryTagLib.groovy]
+2014-08-09 10:11:33,255 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\lib]
+2014-08-09 10:11:33,255 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1\lib] because it does not exist
+2014-08-09 10:11:33,255 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\webxml-1.4.1/lib/*.jar] to resources []
+2014-08-09 10:11:33,255 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\tomcat-7.0.53\lib]
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\tomcat-7.0.53\lib] because it does not exist
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\tomcat-7.0.53/lib/*.jar] to resources []
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\lib]
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0\lib] because it does not exist
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\scaffolding-2.1.0/lib/*.jar] to resources []
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\lib]
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1\lib] because it does not exist
+2014-08-09 10:11:33,256 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\jquery-1.11.1/lib/*.jar] to resources []
+2014-08-09 10:11:33,257 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\lib]
+2014-08-09 10:11:33,257 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3\lib] because it does not exist
+2014-08-09 10:11:33,257 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\hibernate4-4.3.5.3/lib/*.jar] to resources []
+2014-08-09 10:11:33,257 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\lib]
+2014-08-09 10:11:33,257 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0\lib] because it does not exist
+2014-08-09 10:11:33,257 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\database-migration-1.4.0/lib/*.jar] to resources []
+2014-08-09 10:11:33,257 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\lib]
+2014-08-09 10:11:33,258 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6\lib] because it does not exist
+2014-08-09 10:11:33,258 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\cache-1.1.6/lib/*.jar] to resources []
+2014-08-09 10:11:33,258 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\lib]
+2014-08-09 10:11:33,258 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Skipping [E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7\lib] because it does not exist
+2014-08-09 10:11:33,258 [Thread-9] DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:E:\training\training-grails\training-training-grails\target\work\plugins\asset-pipeline-1.8.7/lib/*.jar] to resources []
+2014-08-09 10:11:37,284 [http-bio-8080-exec-3] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:11:37,287 [http-bio-8080-exec-3] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@4b0cda0b:Socket[addr=/127.0.0.1,port=51846,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:11:37,291 [http-bio-8080-exec-3] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-3] latch=2
+2014-08-09 10:12:31,740 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550351740 sessioncount 0
+2014-08-09 10:12:31,741 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 1 expired sessions: 0
+2014-08-09 10:12:31,760 [http-bio-8080-exec-1] DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-09 10:12:31,761 [http-bio-8080-exec-1] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@167b37e:Socket[addr=/127.0.0.1,port=51845,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2014-08-09 10:12:31,762 [http-bio-8080-exec-1] DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-1] latch=1
+2014-08-09 10:12:51,281 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=1
+2014-08-09 10:12:51,282 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=2
+2014-08-09 10:12:51,547 [http-bio-8080-exec-4] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails]
+2014-08-09 10:12:51,547 [http-bio-8080-exec-4] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:51,547 [http-bio-8080-exec-4] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:51,550 [http-bio-8080-exec-4] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@442f7710:Socket[addr=/0:0:0:0:0:0:0:1,port=51856,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:51,558 [http-bio-8080-exec-6] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/]
+2014-08-09 10:12:51,558 [http-bio-8080-exec-6] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:51,559 [http-bio-8080-exec-6] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:51,560 [http-bio-8080-exec-6] DEBUG core.StandardWrapper  - Allocating non-STM instance
+2014-08-09 10:12:51,622 [http-bio-8080-exec-6] INFO  [localhost].[/training-grails]  - Initializing Spring FrameworkServlet 'gsp'
+2014-08-09 10:12:51,623 [http-bio-8080-exec-6] INFO  [localhost].[/training-grails]  - GSP servlet initialized
+2014-08-09 10:12:51,802 [http-bio-8080-exec-6] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:53,425 [http-bio-8080-exec-6] DEBUG support.PluginAwareResourceBundleMessageSource  - Loading properties [messages_zh_CN.properties]
+2014-08-09 10:12:53,426 [http-bio-8080-exec-6] DEBUG support.PluginAwareResourceBundleMessageSource  - Loading properties [messages.properties]
+2014-08-09 10:12:54,845 [http-bio-8080-exec-6] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@442f7710:Socket[addr=/0:0:0:0:0:0:0:1,port=51856,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:54,868 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=3
+2014-08-09 10:12:54,870 [http-bio-8080-exec-8] DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest3
+2014-08-09 10:12:54,870 [http-bio-8080-exec-8] DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest3
+2014-08-09 10:12:54,870 [http-bio-8080-exec-8] DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@4be14bc7 Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest3
+2014-08-09 10:12:54,872 [http-bio-8080-exec-7] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/main.css]
+2014-08-09 10:12:54,875 [http-bio-8080-exec-7] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:54,875 [http-bio-8080-exec-7] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:54,876 [http-bio-8080-exec-8] DEBUG http.Parameters  - Set query string encoding to UTF-8
+2014-08-09 10:12:54,876 [http-bio-8080-exec-8] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/application.css]
+2014-08-09 10:12:54,876 [http-bio-8080-exec-8] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:54,876 [http-bio-8080-exec-8] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:54,875 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=4
+2014-08-09 10:12:54,872 [http-bio-8080-exec-5] DEBUG http.Parameters  - Set query string encoding to UTF-8
+2014-08-09 10:12:54,878 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=5
+2014-08-09 10:12:54,875 [http-bio-8080-exec-9] DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest4
+2014-08-09 10:12:54,879 [http-bio-8080-exec-9] DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest4
+2014-08-09 10:12:54,878 [http-bio-8080-exec-5] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/mobile.css]
+2014-08-09 10:12:54,879 [http-bio-8080-exec-5] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:54,880 [http-bio-8080-exec-5] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:54,881 [http-bio-8080-exec-9] DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@69fd0a70 Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest4
+2014-08-09 10:12:54,883 [http-bio-8080-exec-9] DEBUG http.Parameters  - Set query string encoding to UTF-8
+2014-08-09 10:12:54,883 [http-bio-8080-exec-9] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/jquery/jquery-1.11.1.js]
+2014-08-09 10:12:54,884 [http-bio-8080-exec-9] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:54,884 [http-bio-8080-exec-9] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:54,885 [http-bio-8080-exec-10] DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest5
+2014-08-09 10:12:54,885 [http-bio-8080-exec-10] DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest5
+2014-08-09 10:12:54,885 [http-bio-8080-exec-10] DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@4036fed6 Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest5
+2014-08-09 10:12:54,886 [http-bio-8080-exec-10] DEBUG http.Parameters  - Set query string encoding to UTF-8
+2014-08-09 10:12:54,886 [http-bio-8080-exec-10] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/jquery.js]
+2014-08-09 10:12:54,886 [http-bio-8080-exec-10] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:54,886 [http-bio-8080-exec-10] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:54,887 [http-bio-8080-exec-2] DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest6
+2014-08-09 10:12:54,888 [http-bio-8080-exec-2] DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest6
+2014-08-09 10:12:54,888 [http-bio-8080-exec-2] DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@3cfac29f Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest6
+2014-08-09 10:12:54,888 [http-bio-8080-exec-2] DEBUG http.Parameters  - Set query string encoding to UTF-8
+2014-08-09 10:12:54,888 [http-bio-8080-exec-2] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/application.js]
+2014-08-09 10:12:54,888 [http-bio-8080-exec-2] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:54,889 [http-bio-8080-exec-2] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:54,890 [http-bio-8080-Acceptor-0] DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=6
+2014-08-09 10:12:54,928 [http-bio-8080-exec-7] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:54,928 [http-bio-8080-exec-8] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:54,928 [http-bio-8080-exec-8] DEBUG http.Parameters  - Decoding query null UTF-8
+2014-08-09 10:12:54,928 [http-bio-8080-exec-7] DEBUG http.Parameters  - Decoding query null UTF-8
+2014-08-09 10:12:54,928 [http-bio-8080-exec-7] DEBUG http.Parameters  - Start processing with input [compile=false]
+2014-08-09 10:12:54,928 [http-bio-8080-exec-9] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:54,929 [http-bio-8080-exec-9] DEBUG http.Parameters  - Decoding query null UTF-8
+2014-08-09 10:12:54,929 [http-bio-8080-exec-9] DEBUG http.Parameters  - Start processing with input [compile=false]
+2014-08-09 10:12:54,928 [http-bio-8080-exec-5] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:54,928 [http-bio-8080-exec-8] DEBUG http.Parameters  - Start processing with input [compile=false]
+2014-08-09 10:12:54,928 [http-bio-8080-exec-2] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:54,929 [http-bio-8080-exec-2] DEBUG http.Parameters  - Decoding query null UTF-8
+2014-08-09 10:12:54,929 [http-bio-8080-exec-5] DEBUG http.Parameters  - Decoding query null UTF-8
+2014-08-09 10:12:54,929 [http-bio-8080-exec-5] DEBUG http.Parameters  - Start processing with input [compile=false]
+2014-08-09 10:12:54,929 [http-bio-8080-exec-2] DEBUG http.Parameters  - Start processing with input [compile=false]
+2014-08-09 10:12:54,929 [http-bio-8080-exec-10] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:54,930 [http-bio-8080-exec-10] DEBUG http.Parameters  - Decoding query null UTF-8
+2014-08-09 10:12:54,930 [http-bio-8080-exec-10] DEBUG http.Parameters  - Start processing with input [compile=false]
+2014-08-09 10:12:54,951 [http-bio-8080-exec-7] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:54,951 [http-bio-8080-exec-5] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:54,951 [http-bio-8080-exec-8] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:54,951 [http-bio-8080-exec-9] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:54,951 [http-bio-8080-exec-2] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:54,951 [http-bio-8080-exec-10] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:55,118 [http-bio-8080-exec-2] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,118 [http-bio-8080-exec-10] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,118 [http-bio-8080-exec-2] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@ac9c2e7:Socket[addr=/0:0:0:0:0:0:0:1,port=51871,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:55,118 [http-bio-8080-exec-9] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,118 [http-bio-8080-exec-10] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@441ad139:Socket[addr=/0:0:0:0:0:0:0:1,port=51870,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:55,119 [http-bio-8080-exec-9] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@2f413702:Socket[addr=/0:0:0:0:0:0:0:1,port=51869,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:55,121 [http-bio-8080-exec-9] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/grails_logo.png]
+2014-08-09 10:12:55,121 [http-bio-8080-exec-9] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:55,121 [http-bio-8080-exec-9] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:55,122 [http-bio-8080-exec-9] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:55,123 [http-bio-8080-exec-9] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:55,136 [http-bio-8080-exec-9] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,136 [http-bio-8080-exec-9] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@2f413702:Socket[addr=/0:0:0:0:0:0:0:1,port=51869,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:55,143 [http-bio-8080-exec-8] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,144 [http-bio-8080-exec-8] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@7b60b510:Socket[addr=/0:0:0:0:0:0:0:1,port=51868,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:55,145 [http-bio-8080-exec-5] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,145 [http-bio-8080-exec-5] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@a0f6cb8:Socket[addr=/0:0:0:0:0:0:0:1,port=51857,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:55,223 [http-bio-8080-exec-7] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,224 [http-bio-8080-exec-7] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@442f7710:Socket[addr=/0:0:0:0:0:0:0:1,port=51856,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:12:55,267 [http-bio-8080-exec-7] DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/training-grails/assets/spinner.gif]
+2014-08-09 10:12:55,267 [http-bio-8080-exec-7] DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2014-08-09 10:12:55,267 [http-bio-8080-exec-7] DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2014-08-09 10:12:55,268 [http-bio-8080-exec-7] DEBUG http.Parameters  - Set encoding to utf-8
+2014-08-09 10:12:55,269 [http-bio-8080-exec-7] DEBUG simple.MemoryPageFragmentCachingFilter  - No cacheable annotation found for GET:/training-grails/grails/assets/index.dispatch [controller=assets, action=index]
+2014-08-09 10:12:55,276 [http-bio-8080-exec-7] DEBUG [/training-grails].[grails]  -  Disabling the response for futher output
+2014-08-09 10:12:55,276 [http-bio-8080-exec-7] DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@442f7710:Socket[addr=/0:0:0:0:0:0:0:1,port=51856,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2014-08-09 10:13:31,746 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407550411746 sessioncount 0
+2014-08-09 10:13:31,746 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
