@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a1aaa82-82c6-426b-a9c6-d54bbd1876b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-grails.iws" afterPath="$PROJECT_DIR$/training-grails.iws" />
-    </list>
+    <list default="true" id="1a1aaa82-82c6-426b-a9c6-d54bbd1876b2" name="Default" comment="" />
     <ignored path="training-grails.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -45,8 +43,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3448276" vertical-offset="1568" max-vertical-offset="2204">
-              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.23563218" vertical-offset="1568" max-vertical-offset="2204">
+              <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -425,7 +423,7 @@
       <workItem from="1407377485289" duration="7062000" />
       <workItem from="1407489706639" duration="31000" />
       <workItem from="1407549704186" duration="13938000" />
-      <workItem from="1407573327586" duration="5582000" />
+      <workItem from="1407573327586" duration="5657000" />
     </task>
     <task id="LOCAL-00001" summary="GORM">
       <created>1407381773575</created>
@@ -439,7 +437,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26681000" />
+    <option name="totallyTimeSpent" value="26756000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -463,7 +461,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -841,8 +839,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3448276" vertical-offset="1568" max-vertical-offset="2204">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.23563218" vertical-offset="1568" max-vertical-offset="2204">
+          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
           <folding />
         </state>
       </provider>
