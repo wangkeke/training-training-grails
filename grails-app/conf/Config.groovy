@@ -47,6 +47,10 @@ grails.mime.types = [ // the first one is the default format
 // Legacy setting for codec used to encode data with ${}
 grails.views.default.codec = "html"
 
+/**
+ * 控制器作用范围，如果不指定，默认是prototype <br>
+ * 在每一个类使用一个属性可以指定：static scope="singleton"
+ */
 // The default scope for controllers. May be prototype, session or singleton.
 // If unspecified, controllers are prototype scoped.
 grails.controllers.defaultScope = 'singleton'
