@@ -55,6 +55,25 @@ grails.views.default.codec = "html"
 // If unspecified, controllers are prototype scoped.
 grails.controllers.defaultScope = 'singleton'
 
+/**
+ * 是否开启自动去掉字符串的空格，默认值开启
+ */
+// the default value is true
+grails.databinding.trimStrings = true
+
+/**
+ * 全局时间转换配置
+ */
+grails.databinding.dateFormats = ['MMddyyyy', 'yyyy-MM-dd HH:mm:ss.S', "yyyy-MM-dd'T'hh:mm:ss'Z'"]
+
+/**
+ * 是否把一个空字符串转换为"null"，可以防止空指针，但是需要判断非预期结果<br>
+ * 默认值开启
+ *
+ */
+// the default value is true
+grails.databinding.convertEmptyStringsToNull = false
+
 // GSP settings
 grails {
     views {

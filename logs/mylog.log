@@ -1271,9 +1271,9 @@ java.io.FileNotFoundException: class path resource [E:/training/training-grails/
 2014-08-12 10:48:45,545 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in training.grails.Nose
 2014-08-12 10:48:45,546 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in training.grails.Nose
 2014-08-12 10:48:45,546 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in training.grails.Nose
-2014-08-12 10:48:45,547 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in training.grails.Person
-2014-08-12 10:48:45,547 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in training.grails.Person
-2014-08-12 10:48:45,547 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in training.grails.Person
+2014-08-12 10:48:45,547 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in training.grails.CommandPerson
+2014-08-12 10:48:45,547 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in training.grails.CommandPerson
+2014-08-12 10:48:45,547 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in training.grails.CommandPerson
 2014-08-12 10:48:45,548 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in training.grails.PersonCollection
 2014-08-12 10:48:45,548 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in training.grails.PersonCollection
 2014-08-12 10:48:45,548 [Thread-6] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in training.grails.PersonCollection
@@ -14737,3 +14737,11 @@ java.lang.NullPointerException: Cannot get property 'instanceControllerTagLibrar
 2014-08-12 19:05:44,711 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
 2014-08-12 19:06:44,715 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407841604715 sessioncount 0
 2014-08-12 19:06:44,715 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-12 19:07:44,720 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407841664720 sessioncount 0
+2014-08-12 19:07:44,720 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-12 19:08:44,723 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407841724723 sessioncount 0
+2014-08-12 19:08:44,723 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-12 19:09:44,728 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407841784728 sessioncount 0
+2014-08-12 19:09:44,728 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2014-08-12 19:10:44,735 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - Start expire sessions StandardManager at 1407841844735 sessioncount 0
+2014-08-12 19:10:44,735 [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] DEBUG session.ManagerBase  - End expire sessions StandardManager processingTime 0 expired sessions: 0

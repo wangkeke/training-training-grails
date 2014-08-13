@@ -9,11 +9,11 @@ class SaveAndUpdateAndDelete {
     /**
      *
      * save--保存:
-     * def p = Person.get(1)
+     * def p = CommandPerson.get(1)
      * p.save()
      *
      * 或者--立即刷新执行
-     * def p = Person.get(1)
+     * def p = CommandPerson.get(1)
      * p.save(flush: true)
      *
      * update--更新：
@@ -23,7 +23,7 @@ class SaveAndUpdateAndDelete {
      *
      * Delete--删除
      *
-     * def p = Person.get(1)
+     * def p = CommandPerson.get(1)
      * p.delete()
      *
      * 或者

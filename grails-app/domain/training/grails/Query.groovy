@@ -49,44 +49,44 @@ class Query {
      * Where Queries -- Groovy syntax语法：使用的是闭包
      *
      * 基本语法
-     * def query = Person.where {
+     * def query = CommandPerson.where {
      * firstName == "Bart"
      * }
-     * Person bart = query.find()
+     * CommandPerson bart = query.find()
      * 扩展
-     * def query = Person.where {
+     * def query = CommandPerson.where {
      * (lastName != "Simpson" && firstName != "Fred") || (firstName == "Bart" && age > 9)
      * }
      * def results = query.list(sort:"firstName")
      * 扩展
-     * def results = Person.findAll(sort:"firstName") {
+     * def results = CommandPerson.findAll(sort:"firstName") {
      * lastName == "Simpson"
      * }
-     * Person p = Person.find { firstName == "Bart" }
+     * CommandPerson p = CommandPerson.find { firstName == "Bart" }
      *
      * 高级语法：加入到实体类
      *
-     * class Person {
+     * class CommandPerson {
      * static simpsons = where {
      * lastName == "Simpson"
      * }
      * …
      * }
      * …
-     * Person.simpsons.each {
+     * CommandPerson.simpsons.each {
      * println it.firstname
      * }
      *
      * 组合查询
      * Query Composition
      *
-     * def query = Person.where {
+     * def query = CommandPerson.where {
      * lastName == "Simpson"
      * }
      * def bartQuery = query.where {
      * firstName == "Bart"
      * }
-     * Person p = bartQuery.find()
+     * CommandPerson p = bartQuery.find()
      *
      * Note that you cannot pass a closure defined as a variable into the where method unless it has been explicitly cast to a DetachedCriteria instance. In other words the following will produce an error:
      * 注意：不能在闭包中定义一个变量，这样在使用过程中会产生异常的
@@ -94,14 +94,14 @@ class Query {
      * def callable = {
      * lastName == "Simpson"
      * }
-     * def query = Person.where(callable)
+     * def query = CommandPerson.where(callable)
      *
      * Right:
      * import grails.gorm.DetachedCriteria
      * def callable = {
      * lastName == "Simpson"
-     * } as DetachedCriteria<Person>
-     * def query = Person.where(callable)
+     * } as DetachedCriteria<CommandPerson>
+     * def query = CommandPerson.where(callable)
      *
      *
      */
