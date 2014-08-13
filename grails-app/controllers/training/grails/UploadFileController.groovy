@@ -2,5 +2,5 @@ package training.grails
 
 class UploadFileController {
 
-    def index() { }
+    def index() {}
 }
